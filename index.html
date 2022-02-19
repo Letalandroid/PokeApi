@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./img/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="./css/main.css">
+
+    <!-- FUENTE TITLE -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+
+    <title>PokeApi</title>
+</head>
+<body>
+    <header>
+        <div class="pokedex-container">
+            <img src="./img/pokedex.png" alt="pokedex">
+        </div>
+        <h1>Pokedex</h1>
+    </header>
+    <main>
+        <section class="search">
+            <input id="pokemon" type="text" name="pokemons" placeholder="Ingrese el nombre del pokemon...">
+            <input id="search" type="button" value="Buscar">
+        </section>
+        <section class="pokemons_card">
+            <img id="pokemon_img" alt>
+            <span id="pokemon_name"></span>
+            <span id="pokemon_type"></span>
+            <div class="stats">
+                <span id="hp"></span>
+                <span id="defensa"></span>
+                <span id="ataque"></span>
+            </div>
+        </section>
+    </main>
+    <script src="./js/main.js"></script>
+</body>
+</html>
